@@ -4,8 +4,8 @@ A .NET console application, written in C#.
 
 #### Commands:
 
- - `add "name" "author" "category" "language" "date" "isbn"` - Example: add Titanic JohnSnow Romance English 2010 545256985 (date must be 4 numbers, isbn 10 numbers!
- - `take "name" "username"` - Example: take Titanic DavidLee
- - return
- - list
- - delete
+ - `add "bookname" "author" "category" "language" "date" "isbn"` - Example: add Titanic JohnSnow Romance English 2010 5452698745 (date must be 4 numbers, isbn 10 numbers)
+ - `take "bookname" "username" "days"` - Example: take Titanic DavidLee14
+ - `return "bookname" "username"` - Example: return Titanic DavidLee
+ - `list "filtername"` - all, author, category, language, isbn, name, available Example: list all
+ - `delete "bookname"`- Example: delete Titanic
