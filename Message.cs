@@ -15,7 +15,7 @@ namespace BooksLibrary
 
         public const string Commands = "\n1. add \"name\" \"author\" \"category\" \"language\" \"date\" \"isbn\"\nExample: " +
             "add Titanic JohnSnow Romance English 2010 5452569856\n(date must be 4 numbers, isbn 10 numbers!)\n\n" +
-            "2. take \"name\" \"username\"\nExample: take Titanic DavidLee\n\n3. return \"name\" \"username\"\nExample: return Titanic " +
+            "2. take \"name\" \"username\" \"days\"\nExample: take Titanic DavidLee 14\n(max 60days)\n\n3. return \"name\" \"username\"\nExample: return Titanic " +
             "DavidLee\n\n4. list \"filtername\" - all, author, category, language, isbn, name, available\nExample: " +
             "list author\n\n5. delete \"name\"\nExample: delete Titanic\n\n";
 
